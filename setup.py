@@ -11,7 +11,7 @@ setup(
     description="incomplete stubs for lazy-import.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=["lazy-import-stubs"],
+    packages=["lazy_import-stubs"],
     python_requires=">=3.6",
     install_requires=["lazy-import==0.2.2", "typing_extensions"],
     package_data={"": ["*.pyi", "py.typed"]},
